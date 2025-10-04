@@ -1,2 +1,14 @@
 [
+  {
+    "icon": "Cloud",
+    "name": "MineDrive - OM",
+    "description": "OneDrive 直鏈版",
+    "link": "https://om.tw527e.eu.org/"
+  },
+  {
+    "icon": "Cloud",
+    "name": "MineDrive - OM",
+    "description": "CloudFlare 代理版",
+    "link": "https://om-cf.tw527e.eu.org/"
+  }
 ]
