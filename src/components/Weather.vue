@@ -13,7 +13,7 @@
     <span class="sm-hidden">{{ weatherData.weather.windpower }}&nbsp;级</span>
   </div>
   <div class="weather" v-else>
-    <span>天气数据获取失败</span>
+    <span>owo</span>
   </div>
 </template>
 
@@ -55,7 +55,7 @@ const getWeatherData = async () => {
   try {
     // 获取地理位置信息
     if (!mainKey) {
-      console.log("未配置，使用备用天气接口");
+      console.log("owo");
       const result = await getOtherWeather();
       console.log(result);
       const data = result.result;
@@ -90,8 +90,8 @@ const getWeatherData = async () => {
       };
     }
   } catch (error) {
-    console.error("天气信息获取失败:" + error);
-    onError("天气信息获取失败");
+    console.error("owo:" + error);
+    onError("owo");
   }
 };
 
